@@ -1,0 +1,10 @@
+console.log("EXE: 1 -",typeof Object)
+console.log("EXE: 1 -",typeof new Object())
+console.log("........................................")
+const Cliente = function(){}
+console.log("EXE: 2 -",typeof Cliente)
+console.log("EXE: 2 -",typeof new Cliente())
+console.log("........................................")
+class Produto {}//ES 2015(ES6)
+console.log("EXE: 3 -",typeof Produto)
+console.log("EXE: 3 -",typeof new Produto())
